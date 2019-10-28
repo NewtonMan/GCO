@@ -165,7 +165,7 @@
 			die('<script>alert(\''.substr($frase_adm, 12).'\'); Ajax(\'funcionarios/gerenciar\', \'conteudo\', \'\')</script>');
 		}
 		if($j == 0) {
-			$row = "";
+			$row = [];
 		} else {
 			$row = $_POST;
 			$row['nome'] = $_POST['nom'];

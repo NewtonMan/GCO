@@ -54,8 +54,8 @@
     <tr style="font-size: 11px">
       <th width="8%" align="left" style="font-size: 11px">&nbsp;<?php echo $LANG['reports']['time']?></th>
       <th width="30%" align="left" style="font-size: 11px"><?php echo $LANG['reports']['patient']?></th>
-      <th width="12%" align="left" style="font-size: 11px; border-right: 1px; border-right-color=: #000000; border-right-style: solid"><?php echo $LANG['reports']['procedure']?></th>
-      <th width="8%" align="left" style="font-size: 11px; border-left: 1px; border-left-color=: #000000; border-left-style: solid">&nbsp;<?php echo $LANG['reports']['time']?></th>
+      <th width="12%" align="left" style="font-size: 11px; border-right: 1px; border-right-color: #000000; border-right-style: solid"><?php echo $LANG['reports']['procedure']?></th>
+      <th width="8%" align="left" style="font-size: 11px; border-left: 1px; border-left-color: #000000; border-left-style: solid">&nbsp;<?php echo $LANG['reports']['time']?></th>
       <th width="30%" align="left" style="font-size: 11px"><?php echo $LANG['reports']['patient']?></th>
       <th width="12%" align="left" style="font-size: 11px"><?php echo $LANG['reports']['procedure']?></th>
     </tr>

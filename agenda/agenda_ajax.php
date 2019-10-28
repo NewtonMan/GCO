@@ -94,7 +94,7 @@
       <td width="7%" align="left" height="23">&nbsp;<?php echo $LANG['calendar']['time']?></td>
       <td width="24%" align="left"><?php echo $LANG['calendar']['patient']?></td>
       <td width="13%" align="left"><?php echo $LANG['calendar']['procedure']?></td>
-      <td width="6%" align="left" style="border-right: 1px; border-right-color=: #000000; border-right-style: solid">&nbsp;<?php echo $LANG['calendar']['missed']?></td>
+      <td width="6%" align="left" style="border-right: 1px; border-right-color: #000000; border-right-style: solid">&nbsp;<?php echo $LANG['calendar']['missed']?></td>
       <td width="7%" align="left">&nbsp;<?php echo $LANG['calendar']['time']?></td>
       <td width="24%" align="left"><?php echo $LANG['calendar']['patient']?></td>
       <td width="13%" align="left"><?php echo $LANG['calendar']['procedure']?></td>

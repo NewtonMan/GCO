@@ -55,7 +55,7 @@
 		$limit = 0;
 		$_GET['pg'] = 1;
 	}
-	$sql = "SELECT * FROM `telefones` WHERE `nome` LIKE '%$_GET['pesquisa']%' ORDER BY `nome` ASC";
+        $sql = "SELECT * FROM `telefones` WHERE `nome` LIKE '%{$_GET['pesquisa']}%' ORDER BY `nome` ASC";
 	$telefones = new TTelefones();
 	$lista = $telefones->ListTelefones($sql.' LIMIT '.$limit.', '.PG_MAX);
 	$total_regs = $telefones->ListTelefones($sql);

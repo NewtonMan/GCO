@@ -64,7 +64,7 @@
 		$limit = 0;
 		$_GET['pg'] = 1;
 	}	
-	$sql = "SELECT * FROM `cheques` WHERE $where ORDER BY `$_GET['campo']` ASC";
+        $sql = "SELECT * FROM `cheques` WHERE $where ORDER BY `{$_GET['campo']}` ASC";
 	$lista = $cheque->ListCheque($sql.' LIMIT '.$limit.', '.PG_MAX);
 	$total_regs = $cheque->ListCheque($sql);
 	$par = "F0F0F0";

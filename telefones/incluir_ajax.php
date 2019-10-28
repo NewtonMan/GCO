@@ -91,7 +91,7 @@
 		$row = $telefones->RetornaTodosDados();
 	} else {		
 		if($j == 0) {
-			$row = "";
+			$row = [];
 		} else {
 			$row = $_POST;
 			$row['nome'] = $_POST['nom'];

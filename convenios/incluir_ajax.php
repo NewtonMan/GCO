@@ -104,7 +104,7 @@
 		$row = $convenio->RetornaTodosDados();
 	} else {
 		if($j == 0) {
-			$row = "";
+			$row = [];
 		} else {
 			$row = $_POST;
 		}

@@ -89,7 +89,7 @@
 		$row['senha_dentista'] = $_REQUEST['senha_dentista'];
 	} else {
 		if($j == 0) {
-			$row = "";
+			$row = [];
 		} else {
 			$row = $_POST;
 		}

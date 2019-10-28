@@ -54,7 +54,7 @@
 		$limit = 0;
 		$_GET['pg'] = 1;
 	}
-	$sql = "SELECT * FROM `patrimonio` WHERE `descricao` LIKE '%$_GET['pesquisa']%' ORDER BY `descricao` ASC";
+        $sql = "SELECT * FROM `patrimonio` WHERE `descricao` LIKE '%{$_GET['pesquisa']}%' ORDER BY `descricao` ASC";
 	$patrimonio = new TPatrimonios();
 	$lista = $patrimonio->ListPatrimonio($sql.' LIMIT '.$limit.', '.PG_MAX);
 	$total_regs = $patrimonio->ListPatrimonio($sql);

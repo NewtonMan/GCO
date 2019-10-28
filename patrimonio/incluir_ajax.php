@@ -94,7 +94,7 @@
 		$row = $_POST;
 		$row['nome'] = $_POST['nom'];
 		if(!isset($_POST['codigo']) || $j == 0) {
-			$row = "";
+			$row = [];
 			$row['codigo'] = next_autoindex('patrimonio');
 		} else {
 			$row['codigo'] = $_POST['codigo'];
