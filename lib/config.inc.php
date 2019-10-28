@@ -50,9 +50,9 @@
 
     // Variáveis do conexão com o BD
     $server = 'localhost';
-    $user = 'root';
-    $pass = 'nosferatu';
-    $bd = 'gerenciador';
+    $user = 'sorriamaais_gco';
+    $pass = 'gotlinux##123';
+    $bd = 'sorriamaais_gco';
   
     // Quantidade de páginas exibidas nas paginações
     define('PG_MAX', 15);
